@@ -51,11 +51,25 @@ Thanks to these powerful Python libraries, we have successfully developed this v
 
 ## Installation
 
-Our software can be easily installed using pypi:
+Download the latest source code in release page or use git clone
 
-```shell
-python3 -m pip install igem-uploads
+### Install UV (if you haven't already)
+
+Open terminal anywhere in your device:
+
+```bash
+# Using pip if you have python installed:
+pip install uv
+# On macOS or Linux:
+curl -LsSf https://astral.sh/uv/install.sh | sh
+# On Windows11 24H2 or later:
+winget install --id=astral-sh.uv  -e
+# On lower version of Windows:
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
+
+Or check the [official installation guide](https://docs.astral.sh/uv/getting-started/installation/)
+
 
 ## Usage
 
